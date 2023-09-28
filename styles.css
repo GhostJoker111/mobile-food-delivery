@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: Smythe;
+}
+
+main {
+    margin: 0 40px;
+}
+
+/* header */
+
+.header-container {
+    position: relative;
+}
+
+.restaurant-logo {
+    max-height: 170px;
+    width: 100%;
+}
+
+.header-text {
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: burlywood;
+}
+
+/* menu */
+
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.food-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.food-icon {
+    font-size: 50px;
+}
+
+.add-food-btn {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 20px;
+    font-size: 30px;
+    color: #3C3C3C;
+    cursor: pointer;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.food-description {
+    margin: 45px 0;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.food-description p:nth-child(2) {
+    margin: 3px auto;
+    color: #8B8B8B;
+}
+
+/* order list */
+
+#order {
+    margin: 40px 0;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.f-center {
+    display: flex;
+    align-items: center;
+}
+
+#ordered-food {
+    gap: 10px;
+}
+
+.remove-btn {
+    color: #BBB;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.order-summary {
+    border-top: 2px solid #393333;
+}
+
+.complete-order {
+    width: 100%;
+    height: 60px;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background: #16DB99;
+    cursor: pointer;
+}
+
+/* modal */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 525px;
+    height: 540px;
+    background: white;
+    box-shadow: 0px 0px 100px 0px #666;
+    border-radius: 4px;
+}
+
+.modal-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 25px;
+}
+
+.card-header {
+    margin-top: 45px;
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#card-forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 45px 0;
+    gap: 25px;
+}
+
+#card-forms>input {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 70px;
+    font-size: 20px;
+    padding-left: 25px;
+    border-radius: 4px;
+    border: 1px solid #757575
+}
+
+#card-forms>button {
+    margin-top: 30px;
+}
+
+/* final window */
+
+.final-window {
+    text-align: center;
+    background: #ECFDF5;
+    color: #065F46;
+    padding: 50px;
+    font-size: 32px;
+}
+
+/* optional */
+
+.hidden {
+    display: none;
+}
