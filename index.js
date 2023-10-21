@@ -158,7 +158,7 @@ function renderMenu(menuArray) {
     return menuArray.map((position) => {
         const { name, ingredients, price, emoji, id } = position;
 
-        return feedHtml =
+        feedHtml =
             `
             <div class="food-position">
                 <span class="food-icon">${emoji}</span>
